@@ -1,0 +1,79 @@
+Sprint: 3
+Zespół: Einstein
+
+
+1. Kod jest pod kontrolą systemu zarządzania wersjami	
+TAK
+	
+2. Kod określający inkrement produktu jest oznaczony w repozytorium (tag)			
+TAK
+
+3. Aplikacja buduje się w sposób automatyczny (kompilacja, stworzenie paczki do dystrybucji)
+TAK
+
+4. Ciągła integracja
+- Lokalna (4.1.) - TAK
+- Centralna (4.2.) - TAK
+ * https://io-ci.cs.put.poznan.pl/job/Einstein/
+
+5. Dokumentacja kodu
+- Liczba klas/interfejsów w pełni udokumentowanych:  10
+
+- Lista klas/interfejsów:
+ * App (src/main/java/App.java)
+ * Board (src/main/java/Board.java)
+ * Dice (src/main/java/Dice.java)
+ * EinsteinWindow (src/main/java/EinsteinWindow.java)
+ * Field (src/main/java/Field.java)
+ * InvalidCoordinateException (src/main/java/InvalidCoordinateException.java)
+ * InvalidValueException (src/main/java/InvalidValueException.java)
+ * MenuWindow (src/main/java/MenuWindow.java)
+ * Move (src/main/java/Move.java)
+ * NaiveArtificialIntelligence (src/main/java/NaiveArtificialIntelligence.java)
+ 
+6. Testy jednostkowe	
+- Liczba klas testujących: 4
+- Liczba metod testujących: 38
+- Liczba wywołań zewnętrznych za pomocą mock objectów: 12
+
+- Lista klas testujących:
+ * BoardTest (/test/java/BoardTest)
+ * DiceTest (/test/java/DiceTest)
+ * EinsteinWindowTest (/test/java/EinsteinWindowTest)
+ * FieldTest (/test/java/FieldTest)
+ 
+7. Testy akceptacyjne
+- Liczba akceptacyjnych przypadków testowych (w tym automatycznych): 5
+- Liczba automatycznych akeceptacyjnych przypadków testowych: 0
+
+- Lokalizacja plików z przypadkami testowymi
+ * repozytorium kodu: /IO-code/acceptance
+ 
+8. Testy wydajnościowe			
+- Liczba testów wydajnościowych w narzędziu JMeter: 1
+
+- Lokalizacja plików z planami testów (np. link do redmine, sciezka w repozytorium, itd.):
+  * repozytorium kodu: /IO-code/JMeter
+  
+9. Pomiar jakości kodu			
+- Lokalizacja opisu celów pomiarowych (np. link do redmine, sciezka w repozytorium, itd.):
+ * https://io.cs.put.poznan.pl/redmine/projects/io2-2016-2017-einstein/wiki/Wiki
+ 
+ ====
+ 
+3. Retrospektywa
+- Lokalizacja spisu akcji naprawczych z ostatniej retrospektywy
+ * https://io.cs.put.poznan.pl/redmine/projects/io2-2016-2017-einstein/wiki/Wiki
+ 
+ ===
+ 
+Wartość biznesowa:
+- Liczba funkcji: 13
+
+- Lista funkcji:
+ * Z poprzednigo (7)
+ * Łatwy bot
+ * Średni bot
+ * Trudny bot
+ * Menu główne
+ * Menu wyboru trudności

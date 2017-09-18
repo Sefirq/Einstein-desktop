@@ -1,0 +1,1 @@
+Średni czas połączenia z serwerem ma być mniejszy od 2s.
